@@ -16,14 +16,22 @@
   padding: 1rem;
   border: 1px solid #ccc;
 }
+
 .editor-class {
   min-height: 10rem;
   background-color: lightgray;
   padding: 1rem;
   border: 1px solid #ccc;
 }
+
 .toolbar-class {
   border: 1px solid #ccc;
+}
+
+.preview {
+  font-weight: bold;
+  padding: 1rem;
+  margin-top: 1rem;
 }
 
 .preview-section {

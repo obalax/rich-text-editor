@@ -18,9 +18,9 @@ function App() {
     setConvertedContent(html);
   }, [editorState]);
 
-  const createMarkup = (html) => {
+  const createMarkup = (htmlInput) => {
     return {
-      __html: DOMPurify.sanitize(html),
+      __html: DOMPurify.sanitize(htmlInput),
     };
   };
 
@@ -51,6 +51,7 @@ function App() {
         }}
       />
 
+      <p className="preview">Preview</p>
       <div
         className="preview-section"
         dangerouslySetInnerHTML={createMarkup(convertedContent)}
