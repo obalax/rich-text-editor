@@ -7,7 +7,7 @@ and [react-draft-wysiwyg](https://github.com/jpuri/react-draft-wysiwyg)
 
 ## How to run this project locally
 
-- Clone this [project](https://github.com/Babanila/scheduling-app.git)
+- Clone this [project](https://github.com/obalax/rich-text-editor)
 
 - Run `npm install` or `yarn install`in both folders to install all their dependencies.
 
